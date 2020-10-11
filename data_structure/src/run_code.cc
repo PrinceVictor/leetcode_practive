@@ -1,11 +1,20 @@
 #include <iostream>
-#include <vector>
 
-#include "create_test.h"
+using namespace std;
 
-int main(int argc, char** agrv){
 
-    runEvaluation_maxsumOfsubseq();
+
+int main(){
+
+    int a = 10;
+    int b = 5;
+
+    int c = a+b;
+
+    cout<<"a = "<< a << endl;
+    cout<<"b = "<< b << endl;
+    cout<<"c = "<< c << endl;
 
     return 0;
+
 }

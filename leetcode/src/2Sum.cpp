@@ -27,7 +27,7 @@ std::vector<int> twoSum(std::vector<int> nums, int target){
   std::unordered_map<int, int> hashtable;
   for(int i = 0; i<nums.size(); i++){
 
-    auto it = hashtable.find(target - nums[i]);
+    auto it = hashtable.find(target - nums[i]);n
     if(it != hashtable.end()){
 
       printf("%d\t %d \n", it->second, i);
