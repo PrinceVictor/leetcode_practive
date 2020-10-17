@@ -14,4 +14,6 @@ void create_random_vector(std::vector<int>& output_random_vector,
 
 void runEvaluation_maxsumOfsubseq();
 
+void runEvaluation_sortSeq();
+
 #endif //DATA_STRUCTURE_CREATE_TEST_H

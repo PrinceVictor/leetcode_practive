@@ -4,6 +4,7 @@
 #include <chrono>
 #include "create_test.h"
 #include "maxsum_of_subseq.h"
+#include "sort_seq.h"
 
 void create_random_vector(std::vector<int>& output_random_vector,
                           const int& begin, const int& end, const bool time_used){
@@ -31,6 +32,10 @@ void create_random_vector(std::vector<int>& output_random_vector,
         printf("%d\t", output_random_vector[i]);
     }
     printf("\n");
+}
+
+void runEvaluation_sortSeq(){
+
 }
 
 void runEvaluation_maxsumOfsubseq(){
